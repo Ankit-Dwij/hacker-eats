@@ -179,3 +179,24 @@ export const categories = [
       "https://duyt4h9nfnj50.cloudfront.net/new_search_home_eats_icon/Placeholder_Plates@3x.png",
   },
 ];
+
+export const HeadLine = [
+  {
+    id: 1,
+    maintext: "Sun's out, BOGO's out",
+    subtext: "Through 8/26",
+    bg: "https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+  },
+  {
+    id: 2,
+    maintext: "Feeling Hungry ?",
+    subtext: "Open 24x7",
+    bg: "https://images.pexels.com/photos/60616/fried-chicken-chicken-fried-crunchy-60616.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+  },
+  {
+    id: 3,
+    maintext: "Vegetarians Delight",
+    subtext: "Through 8/26",
+    bg: "https://images.pexels.com/photos/707251/pexels-photo-707251.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+  },
+];

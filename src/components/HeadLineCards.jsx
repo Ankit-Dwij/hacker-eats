@@ -1,27 +1,8 @@
-import React from "react";
-
-const data = [
-  {
-    id: 1,
-    maintext: "Sun's out, BOGO's out",
-    subtext: "Through 8/26",
-    bg: "https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-  },
-  {
-    id: 2,
-    maintext: "Feeling Hungry ?",
-    subtext: "Open 24x7",
-    bg: "https://images.pexels.com/photos/60616/fried-chicken-chicken-fried-crunchy-60616.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-  },
-  {
-    id: 3,
-    maintext: "Vegetarians Delight",
-    subtext: "Through 8/26",
-    bg: "https://images.pexels.com/photos/707251/pexels-photo-707251.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-  },
-];
+import React, { useState } from "react";
+import { HeadLine } from "../data/data";
 
 const HeadLineCards = () => {
+  const [data, setData] = useState(HeadLine);
   return (
     <div className="max-w-[1640px] mx-auto p-4 py-12 grid md:grid-cols-3 gap-6">
       {/* card */}
