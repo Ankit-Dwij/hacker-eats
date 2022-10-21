@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/hacker-eats/static/css/main.23a42ee0.css",
+    "main.js": "/hacker-eats/static/js/main.0618876a.js",
+    "index.html": "/hacker-eats/index.html",
+    "main.23a42ee0.css.map": "/hacker-eats/static/css/main.23a42ee0.css.map",
+    "main.0618876a.js.map": "/hacker-eats/static/js/main.0618876a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.23a42ee0.css",
+    "static/js/main.0618876a.js"
+  ]
+}
